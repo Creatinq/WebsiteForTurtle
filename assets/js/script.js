@@ -10,10 +10,10 @@ function openSocial(type) {
       url = 'https://discordapp.com/users/805092066555592706';
       break;
     case 'github':
-      url = 'https://github.com/IgnKay';
+      url = 'https://github.com/turtle';
       break;
     case 'twitter':
-      url = 'https://twitter.com/ignkay';
+      url = 'https://twitter.com/turtle';
       break;
   }
 
@@ -24,8 +24,8 @@ function startIntroTyping() {
   new TypeIt('#intro-text', {
     speed: 50,
   })
-    .type('welcome.', { delay: 1200 })
-    .delete(null, { delay: 1000 })
+    .type('welcome, little turtle.', { delay: 1500 })
+    .delete(null, { delay: 1300 })
     .type(`${mobile ? 'tap' : 'press any key'} to enter.`)
     .go();
 
@@ -37,7 +37,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['certified dumbass', 'dumbass', 'Java Dev', 'forth founder | iconic llc', 'i like cattos'];
+  let text = ['Medical student', 'turtle lover', '"singer"', 'elephant lover', '<3 owo'];
 
   text.forEach(function (language, index) {
     typer.move(null);
@@ -62,7 +62,7 @@ function startMainTyping() {
 }
 
 function switchScreen() {
-  document.title = 'Kay | home';
+  document.title = 'Turtle | home';
 
   $('.intro').fadeOut(1000, function () {
     $('.bg-image').fadeIn(1000);
