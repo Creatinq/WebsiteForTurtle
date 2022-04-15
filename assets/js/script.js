@@ -24,8 +24,8 @@ function startIntroTyping() {
   new TypeIt('#intro-text', {
     speed: 50,
   })
-    .type('welcome, little turtle.', { delay: 1500 })
-    .delete(null, { delay: 1300 })
+    .type('welcome, little turtle. How are you today?', { delay: 1700 })
+    .delete(null, { delay: 1400 })
     .type(`${mobile ? 'tap' : 'press any key'} to enter.`)
     .go();
 
@@ -37,7 +37,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['Medical student', 'turtle lover', '"singer"', 'elephant lover', '<3 owo'];
+  let text = ['turtleman', 'turtle lover', '"eat grass"', 'dont question this', 'turtle is better then you'];
 
   text.forEach(function (language, index) {
     typer.move(null);
