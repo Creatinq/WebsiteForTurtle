@@ -7,13 +7,13 @@ function openSocial(type) {
 
   switch (type) {
     case 'discord':
-      url = 'https://discordapp.com/users/805092066555592706';
+      url = 'https://discordapp.com/users/925650718889750598';
       break;
     case 'github':
-      url = 'https://github.com/turtle';
+      url = 'https://github.com/404errorlololol';
       break;
     case 'twitter':
-      url = 'https://twitter.com/turtle';
+      url = 'https://twitter.com/404errorlololol';
       break;
   }
 
@@ -24,7 +24,7 @@ function startIntroTyping() {
   new TypeIt('#intro-text', {
     speed: 50,
   })
-    .type('welcome, little turtle. How are you today?', { delay: 1700 })
+    .type('welcome, WE ARE VENOMM', { delay: 1700 })
     .delete(null, { delay: 1400 })
     .type(`${mobile ? 'tap' : 'press any key'} to enter.`)
     .go();
@@ -37,7 +37,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['turtleman', 'turtle lover', '"eat grass"', 'dont question this', 'turtle is better then you'];
+  let text = ['Minecrafter', 'Certified nub', 'I like melon', 'bedwars player', 'why are you here still'];
 
   text.forEach(function (language, index) {
     typer.move(null);
