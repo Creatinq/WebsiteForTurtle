@@ -24,7 +24,7 @@ function startIntroTyping() {
   new TypeIt('#intro-text', {
     speed: 50,
   })
-    .type('welcome, WE ARE VENOMM', { delay: 1700 })
+    .type('welcome..', { delay: 1700 })
     .delete(null, { delay: 1400 })
     .type(`${mobile ? 'tap' : 'press any key'} to enter.`)
     .go();
@@ -37,7 +37,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['Minecrafter', 'Certified nub', 'I like melon', 'bedwars player', 'why are you here still'];
+  let text = ['Minecrafter', 'Bedwars Player', 'Certified nub', 'I like Melons', 'dude why are you here still'];
 
   text.forEach(function (language, index) {
     typer.move(null);
