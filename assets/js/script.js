@@ -62,7 +62,7 @@ function startMainTyping() {
 }
 
 function switchScreen() {
-  document.title = 'Turtle | home';
+  document.title = 'Get Rick Rolled!';
 
   $('.intro').fadeOut(1000, function () {
     $('.bg-image').fadeIn(1000);
